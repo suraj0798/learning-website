@@ -3,12 +3,12 @@
 }
 
 .navbar {
-    background-color: #fff;
+    background: linear-gradient(to right, #ff0090 0%, #151b8d 100%);
     padding: 0px;
 }
 
 .banner {
-    background-image: url("images/bg2.jpg");
+    background-image: url("images/bg12.jpg");
     background-size: cover;
 }
 
@@ -39,9 +39,31 @@
     color: orangered;
 }
 
+.fa-css3-alt{
+    color: blue;
+}
+
+.fa-square-js{
+    color: yellow;
+}
+
+.fa-bootstrap{
+    color: blueviolet;
+}
+
+.fa-react{
+    color: #61dbfb;
+}
+
 .course-list li {
     width: 20%;
     padding: 20px 40px;
     margin: 10px;
-    background-color: lightgreen;
+    background-color: #f5fffa;
+    
+}
+
+.lets-start {
+    background: linear-gradient(to right, #ff0090 0%, #151b8d 100%);
+    padding: 30px;
 }
