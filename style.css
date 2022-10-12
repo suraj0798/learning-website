@@ -1,0 +1,47 @@
+#logoNav{
+    width: 180px;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 0px;
+}
+
+.banner {
+    background-image: url("images/bg2.jpg");
+    background-size: cover;
+}
+
+
+.banner-content {
+    margin-top: 10rem;
+}
+
+#bannerImg {
+    width: 500px;
+    margin-left: 300px;
+    
+}
+
+.courses {
+    padding: 40px;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0px;
+    display: inline-flex;
+    margin: 10px 0px;
+    
+}
+
+.fa-html5 {
+    color: orangered;
+}
+
+.course-list li {
+    width: 20%;
+    padding: 20px 40px;
+    margin: 10px;
+    background-color: lightgreen;
+}
