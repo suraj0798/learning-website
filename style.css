@@ -36,19 +36,19 @@
 }
 
 .fa-html5 {
-    color: orangered;
+    color: #e34c26;
 }
 
 .fa-css3-alt{
-    color: blue;
+    color: #264de4;
 }
 
 .fa-square-js{
-    color: yellow;
+    color: #f0db4f;
 }
 
 .fa-bootstrap{
-    color: blueviolet;
+    color: #563d7c;
 }
 
 .fa-react{
@@ -59,7 +59,7 @@
     width: 20%;
     padding: 20px 40px;
     margin: 10px;
-    background-color: #f5fffa;
+    background-color: #ffffff;
     
 }
 
