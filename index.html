@@ -105,7 +105,38 @@
         <div class="lets-start text-center text-light">
             <h1>Let's Start Learning...</h1>
             <br>
-            <a href="#" class="btn btn-outline-light btn-lg">Register</a>
+            <a href="#" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 " id="staticBackdropLabel">Register</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         </div>
         <!-- code for projects -->
         <div class="projects">
@@ -122,8 +153,9 @@
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                            <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        <div class="accordion-body">HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the
+                        creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such
+                        as tags and attributes.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -135,9 +167,8 @@
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                            <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-                            filled with some actual content.</div>
+                        <div class="accordion-body">CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and
+                        spacing of your content, split it into multiple columns, or add animations and other decorative features.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -149,13 +180,18 @@
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                            happening here in terms of content, but just filling up the space to make it look, at least at first
-                            glance, a bit more representative of how this would look in a real-world application.</div>
+                        <div class="accordion-body">Javascript is used by programmers across the world to create dynamic and interactive web content like applications and
+                        browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side
+                        programming language by 97.0% of all websites.</div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="contact-us text-center text-light">
+            <h1>How Can We Help?</h1>
+            <h6>If you have any question, please feel free to drom a line. We are get back to you soon as i can.</h6>
+            <br>
+            <a href="#" class="btn btn-outline-light btn-lg">Contact us</a>
         </div>
         <!-- code of componies -->
         <div class="companies">

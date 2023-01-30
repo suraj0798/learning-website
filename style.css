@@ -72,6 +72,20 @@
     padding: 30px;
 }
 
+.modal-content h1, label  {
+    color: #ff0090;
+}
+
+.contact-us {
+        background: linear-gradient(to top right, #ff0090 0%, #151b8d 100%);
+        padding: 20px;
+        margin: 30px 0;
+}
+
+.contact-us h1{
+    font-size: 30px;
+}
+
 .projects {
     padding: 30px 100px;
 }
